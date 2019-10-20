@@ -93,7 +93,7 @@ clairPrecip_Prior = getSubset(clairPrecip_Prior, priorPrecipStart[1], priorPreci
 clairEvap_Prior = getSubset(clairEvap_Prior, priorEvapStart[1], priorEvapStart[2], priorEvapEnd[1], priorEvapEnd[2])
 clairRunoff_Prior = getSubset(clairRunoff_Prior, priorRunoffStart[1], priorRunoffStart[2], priorRunoffEnd[1], priorRunoffEnd[2])
 
-clairNBS_Prior = getSubset(clairNBS, priorNBSStart[1], priorNBSStart[2], priorNBSEnd[1], priorNBSEnd[2])
+clairNBS_Prior = getSubset(clairNBS_Prior, priorNBSStart[1], priorNBSStart[2], priorNBSEnd[1], priorNBSEnd[2])
 clairOutflow_Prior = getSubset(clairOutflow_Prior, priorOutflowStart[1], priorOutflowStart[2], priorOutflowEnd[1], priorOutflowEnd[2])
 
 erieOutflow_Prior = getSubset(erieOutflow_Prior, priorOutflowStart[1], priorOutflowStart[2], priorOutflowEnd[1], priorOutflowEnd[2])
